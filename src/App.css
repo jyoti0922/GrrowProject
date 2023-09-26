@@ -1,0 +1,152 @@
+/* FONT FAMILY CODE HERE */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Roboto:wght@400;500;700&display=swap");
+
+.ff_roboto {
+  font-family: "Roboto", sans-serif;
+}
+.ff_outfit {
+  font-family: "Outfit", sans-serif;
+}
+/*ADD ROOT CODE HERE */
+#root {
+  /* =====================font-size===================== */
+  --font-sm: 14px;
+  --font-xsm: 16px;
+  --font-md: 18px;
+  --font-lg: 20px;
+  --font-xl: 24px;
+  --font-2xl: 48px;
+  --font-3xl: 52px;
+  --font-4xl: 64px;
+  /* =======================color======================= */
+  --color-pink: #ff5cd7;
+  --color-dark: #0d0d0d;
+}
+
+/* ONLY FONT SIZE MEDIA QUERY */
+@media (max-width: 1399.98px) {
+  :root {
+    --font-sm: 14px;
+    --font-xsm: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-2xl: 48px;
+    --font-3xl: 52px;
+    --font-4xl: 64px;
+  }
+}
+@media (max-width: 1199.98px) {
+  :root {
+    --font-sm: 14px;
+    --font-xsm: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-2xl: 48px;
+    --font-3xl: 52px;
+    --font-4xl: 64px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-sm: 14px;
+    --font-xsm: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-2xl: 48px;
+    --font-3xl: 52px;
+    --font-4xl: 64px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-sm: 14px;
+    --font-xsm: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-2xl: 48px;
+    --font-3xl: 52px;
+    --font-4xl: 64px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-sm: 14px;
+    --font-xsm: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-2xl: 48px;
+    --font-3xl: 52px;
+    --font-4xl: 64px;
+  }
+}
+/* =================== DEFINE FONT-SIZE======================== */
+
+.font_sm {
+  font-size: var(--font-sm);
+}
+.font_xsm {
+  font-size: var(--font-xsm);
+}
+
+.font_md {
+  font-size: var(--font-md);
+}
+
+.font_lg {
+  font-size: var(--font-lg);
+}
+
+.font_xl {
+  font-size: var(--font-xl);
+}
+.font_2xl {
+  font-size: var(--font-2xl);
+}
+.font_3xl {
+  font-size: var(--font-3xl);
+}
+.font_4xl {
+  font-size: var(--font-4xl);
+}
+/* DEFINE COLOR */
+.text_pink {
+  color: var(--color-pink);
+}
+.text_dark {
+  color: var(--color-dark);
+}
+/* DEFINE OPACITY */
+.opacity_05 {
+  opacity: 0.5;
+}
+.opacity_07 {
+  opacity: 0.7;
+}
+/* DEFINE LINE HEIGHT */
+.lh_110 {
+  line-height: 110%;
+}
+.lh_120 {
+  line-height: 120%;
+}
+.lh_150 {
+  line-height: 150%;
+}
+/* DEFINE FONT-WEIGHT  */
+.fw_medium {
+  font-weight: 500;
+}
+body,
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
