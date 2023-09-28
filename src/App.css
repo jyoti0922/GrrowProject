@@ -530,6 +530,9 @@ textarea::placeholder {
   .welcome_img {
     max-width: 610px;
   }
+  .common_btn {
+    padding: 10px 30px;
+  }
 }
 @media (max-width: 991.98px) {
   .overflow_hidden {
@@ -576,7 +579,7 @@ textarea::placeholder {
 
 @media (max-width: 575.98px) {
   .common_btn {
-    padding: 10px 25px;
+    padding: 8px 25px;
   }
   .viewall_img {
     width: 330px !important;
