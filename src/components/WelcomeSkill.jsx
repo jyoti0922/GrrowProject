@@ -5,13 +5,17 @@ const WelcomeSkill = () => {
   return (
     <>
       <div className="container custom_container py-5 mt-lg-3 mb-lg-2">
-        <div className="row align-items-center py-md-5 my-lg-4 position-lg-relative">
+        <div className="row align-items-center justify-content-center justify-content-lg-between  py-md-5 my-lg-4 position-lg-relative">
           <div className="col-12 col-lg-8 col-xl-7 position-relative">
-            <div className="">
-              <img className="w-100" src={WelcomeImg} alt="welcome image" />
+            <div className="text-center">
+              <img
+                className="w-100 welcome_img"
+                src={WelcomeImg}
+                alt="welcome image"
+              />
             </div>
           </div>
-          <div className="col-12 col-lg-7 mt-4 mt-md-0 position-lg-absolute right_0">
+          <div className="col-10 col-md-8 col-lg-6 mt-3 mt-lg-0 position-lg-absolute right_0">
             <div className="p-3 p-md-4 bg_offWhite br_5">
               <h2 className="fw-normal font_2xl text-black lh_56 mb-3">
                 <span className="fw-semibold">Welcome</span> to Work Skills
@@ -28,14 +32,14 @@ const WelcomeSkill = () => {
                   professionals develop and strengthen essential skills such as
                   boundaries-setting, communication, adaptability, and others.
                 </li>
-                <li className="fw-normal font_xsm text-black opacity_07 lh_150 mb-2">
+                <li className="fw-normal font_xsm text-black opacity_07 lh_150 mb-0 mb-lg-2">
                   In this way, we aim to empower young professionals to navigate
                   their careers with confidence and success.
                 </li>
               </ul>
               <a
-                href="/"
-                className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block mt-5"
+                href="#"
+                className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block mt-3 mt-lg-4 mt-xl-5 pink_btn transition_03"
               >
                 Subscribe
               </a>

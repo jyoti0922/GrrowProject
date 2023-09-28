@@ -9,8 +9,16 @@ import Footer from "./components/Footer";
 import ViewAll from "./components/ViewAll";
 import Backtotop from "./components/common/Backtotop";
 import Loading from "./components/common/Loading";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <Loading />

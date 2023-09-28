@@ -15,7 +15,7 @@
   --font-md: 18px;
   --font-lg: 20px;
   --font-xl: 24px;
-  --font-2xl: 48px;
+  --font-2xl: 47px;
   --font-3xl: 52px;
   --font-4xl: 64px;
   /* =======================color======================= */
@@ -35,12 +35,13 @@
 }
 @media (max-width: 1199.98px) {
   :root {
+    --font-xsm: 15px;
     --font-md: 17px;
     --font-lg: 19px;
     --font-xl: 22px;
-    --font-2xl: 42px;
+    --font-2xl: 39px;
     --font-3xl: 48px;
-    --font-4xl: 56px;
+    --font-4xl: 52px;
   }
 }
 
@@ -48,9 +49,8 @@
   :root {
     --font-md: 16px;
     --font-lg: 18px;
-    --font-2xl: 40px;
+    --font-2xl: 38px;
     --font-3xl: 45px;
-    --font-4xl: 54px;
   }
 }
 
@@ -59,7 +59,7 @@
     --font-xl: 20px;
     --font-2xl: 38px;
     --font-3xl: 42px;
-    --font-4xl: 52px;
+    --font-4xl: 50px;
   }
 }
 
@@ -67,9 +67,9 @@
   :root {
     --font-sm: 12px;
     --font-xsm: 14px;
-    --font-2xl: 35px;
+    --font-2xl: 30px;
     --font-3xl: 40px;
-    --font-4xl: 50px;
+    --font-4xl: 45px;
   }
 } /* =================== DEFINE FONT-SIZE======================== */
 
@@ -134,24 +134,7 @@
 .lh_150 {
   line-height: 150%;
 }
-.lh_21 {
-  line-height: 21.09px;
-}
-.lh_75 {
-  line-height: 75px;
-}
-.lh_56 {
-  line-height: 56.25px;
-}
-.lh_16 {
-  line-height: 16.41px;
-}
-.lh_28 {
-  line-height: 28.13px;
-}
-.lh_23 {
-  line-height: 23.44px;
-}
+
 /* DEFINE FONT-WEIGHT  */
 .fw_medium {
   font-weight: 500;
@@ -162,7 +145,7 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif !important;
-  background-color: #efefef;
+  background-color: #efefef !important;
 }
 /*HEADER-SECTION-CSS */
 .nav-fix {
@@ -209,12 +192,26 @@ html {
   height: 2px;
   bottom: -7px;
   background-color: #ffffff;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0%;
+
+  transition: all 300ms;
+}
+.nav_hover:hover::before {
+  width: 40%;
+}
+.nav_hover::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: -7px;
+  background-color: #ffffff;
+  left: 0%;
+
   transition: all 300ms;
 }
 .nav_hover:hover::after {
-  width: 100%;
+  width: 40%;
 }
 .btn_close_position {
   top: 20px;
@@ -231,6 +228,22 @@ html {
 .common_btn {
   border-radius: 264px;
   padding: 13px 30px;
+  border: 1px solid transparent;
+}
+.white_btn:hover {
+  background-color: #ff5cd7 !important;
+  color: white !important;
+  box-shadow: 0px 1px 3px 0px #ff5cd7;
+}
+.transparent_btn:hover {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0px 1px 3px 0px white;
+}
+.pink_btn:hover {
+  background-color: black !important;
+  color: white !important;
+  box-shadow: 0px 1px 3px 0px rgb(118, 115, 115);
 }
 /* HERO SECTION CSS  */
 .hero_bg {
@@ -248,6 +261,10 @@ html {
 /* Welcome to work skills section css */
 .br_5 {
   border-radius: 5px;
+}
+.welcome_img {
+  max-width: 679px;
+  max-height: 495px;
 }
 
 /* Join work section css */
@@ -282,9 +299,8 @@ textarea::placeholder {
   font-size: var(--font-xsm);
 }
 .getupdated_input {
-  border: 1px solid #000;
+  border: 1px solid / 000;
   background: #fff;
-  border-radius: 5px !important;
   border: 1px solid;
   border-image: linear-gradient(
       180deg,
@@ -312,7 +328,7 @@ textarea::placeholder {
 }
 .faq_accordion .accordion-item {
   border-radius: 10px !important;
-  border: 1px solid #c5c5c5 !important;
+  border: 1px solid / c5c5c5 !important;
 }
 .faq_accordion .accordion-button:not(.collapsed) {
   box-shadow: none !important;
@@ -429,8 +445,30 @@ textarea::placeholder {
   .min_vh_100 {
     min-height: 100vh;
   }
+  .lh_21 {
+    line-height: 21.09px;
+  }
+  .lh_75 {
+    line-height: 75px;
+  }
+  .lh_56 {
+    line-height: 56.25px;
+  }
+  .lh_16 {
+    line-height: 16.41px;
+  }
+  .lh_28 {
+    line-height: 28.13px;
+  }
+  .lh_23 {
+    line-height: 23.44px;
+  }
 }
 @media (min-width: 992px) {
+  .joinsection_logo {
+    max-width: 128.217px;
+    height: 107.796px;
+  }
   .position-lg-relative {
     position: relative;
   }
@@ -444,13 +482,37 @@ textarea::placeholder {
     right: 0;
     top: 15%;
   }
-  .joinsection_logo {
-    max-width: 128.217px;
-    height: 107.796px;
-  }
 }
+
 @media (max-width: 1199.98px) {
   .get_updated_sendBox {
     padding: 28px;
+  }
+}
+@media (max-width: 991.98px) {
+  .navbar_bg {
+    padding: 12px 18px !important;
+  }
+  .logo_img {
+    max-width: 45px !important;
+    height: 35px !important;
+  }
+  .planningSocial_bg {
+    max-width: 100%;
+  }
+  .welcome_img {
+    max-width: 450px;
+    max-height: 250px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .welcome_img {
+    max-width: 290px;
+    max-height: 200px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .common_btn {
+    padding: 10px 25px;
   }
 }

@@ -13,17 +13,10 @@ const Header = () => {
   return (
     <>
       <nav>
-        <div className="container custom_container py-3">
+        <div className="container custom_container pt-3">
           <div className="d-flex align-items-center justify-content-between position-relative z_index_2 navbar_bg">
-            <a
-              href="#"
-              className="ff_ubuntu fs_xxxlg text-whit5 ps-lg-5 ps-xl-1"
-            >
-              <img
-                className="logo_75 logo_md_100"
-                src={logoimg}
-                alt="logoimg"
-              />
+            <a href="/" className="ff_ubuntu fs_xxxlg text-whit5 ">
+              <img className="logo_img" src={logoimg} alt="logoimg" />
             </a>
             <div
               onClick={() => setNavShow(!navShow)}
@@ -36,7 +29,7 @@ const Header = () => {
             <ul className="d-flex align-items-center mb-0 d-none d-lg-flex  ps-0 mb-0 gap-3">
               <li className=" list-unstyled">
                 <a
-                  to="/"
+                  href="#home"
                   className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                 >
                   Home
@@ -44,7 +37,7 @@ const Header = () => {
               </li>
               <li className=" list-unstyled">
                 <a
-                  to="/about"
+                  href="#about"
                   className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                 >
                   About
@@ -52,7 +45,7 @@ const Header = () => {
               </li>
               <li className=" list-unstyled">
                 <a
-                  to="/article"
+                  href="#article"
                   className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                 >
                   Article
@@ -60,7 +53,7 @@ const Header = () => {
               </li>
               <li className=" list-unstyled">
                 <a
-                  to="/events"
+                  href="#events"
                   className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                 >
                   Events
@@ -69,7 +62,7 @@ const Header = () => {
             </ul>
             <a
               href="#"
-              className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none d-none d-lg-flex"
+              className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none d-none d-lg-flex white_btn transition_03"
             >
               + Subscribe
             </a>
@@ -87,7 +80,7 @@ const Header = () => {
                 </button>
                 <li className=" list-unstyled">
                   <a
-                    to="/"
+                    href="#"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Home
@@ -95,7 +88,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    to="/about"
+                    href="#about"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     About
@@ -103,7 +96,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    to="/article"
+                    href="#article"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Article
@@ -111,7 +104,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    to="/events"
+                    href="#events"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Events
@@ -119,7 +112,7 @@ const Header = () => {
                 </li>
                 <a
                   href="#"
-                  className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none"
+                  className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none white_btn transition_03"
                 >
                   + Subscribe
                 </a>

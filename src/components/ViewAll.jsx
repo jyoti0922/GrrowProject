@@ -115,7 +115,7 @@ const ViewAll = () => {
         <div className="text-center">
           <a
             href="/"
-            className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block mt-5 px-5"
+            className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block mt-5 px-5 pink_btn transition_03"
           >
             View All
           </a>

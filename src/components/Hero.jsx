@@ -8,7 +8,11 @@ const Hero = () => {
         <Header />
         <div className="d-flex flex-grow-1 align-items-center justify-content-center py-5">
           <div className="container custom_container">
-            <div className="d-flex flex-column align-items-center justify-content-center">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+              className="d-flex flex-column align-items-center justify-content-center"
+            >
               <h1 className="text-white fw-normal font_4xl text-center mw_709 lh_75">
                 Meet <span className="fw-semibold ">Work Skill</span> Your
                 Agency for Growth
@@ -20,8 +24,8 @@ const Hero = () => {
                 norma.
               </p>
               <a
-                href="#"
-                className="common_btn fw_medium font_md text-white text-decoration-none border_white mt-lg-4 lh_21"
+                href="/"
+                className="common_btn fw_medium font_md text-white text-decoration-none border_white mt-lg-4 lh_21 transparent_btn transition_03"
               >
                 Get Started
               </a>

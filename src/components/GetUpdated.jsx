@@ -32,7 +32,7 @@ const GetUpdated = () => {
                   src={planningImg}
                   alt="team planing img"
                 />
-                <div className="p-3 planningSocial_bg planningSocial_set br_5 position-absolute">
+                <div className="p-3 planningSocial_bg planningSocial_set br_5 position-lg-absolute mt-4 mt-lg-0">
                   <div className="d-flex align-items-center gap-3 pt-lg-1 px-lg-2">
                     <MsgIcons />
                     <p className="fw-normal font_lg text-black mb-0">
@@ -60,9 +60,10 @@ const GetUpdated = () => {
                   className="row justify-content-between"
                   onSubmit={sendForm}
                 >
-                  <div className="col-6">
+                  <div className="col-12 col-sm-6">
                     <input
                       type="text"
+                      required
                       className="w-100 fw-normal font_xsm text-black opacity_05 getupdated_input br_5 p-2 p-md-3"
                       name="FirstName"
                       placeholder="Your Name"
@@ -75,12 +76,13 @@ const GetUpdated = () => {
                       }
                     />
                   </div>
-                  <div className="col-6">
+                  <div className="col-12 col-sm-6">
                     <input
                       type="email"
-                      className="w-100 fw-normal font_xsm text-black opacity_05 getupdated_input br_5 p-2 p-md-3"
+                      className="w-100 fw-normal font_xsm text-black opacity_05 getupdated_input br_5 p-2 p-md-3 mt-3 mt-sm-0 rounded"
                       placeholder="Your Email Address"
                       name="email"
+                      required
                       value={dataValue.email}
                       onChange={(e) =>
                         setdataValue({ ...dataValue, email: e.target.value })
@@ -99,7 +101,7 @@ const GetUpdated = () => {
                     ></textarea>
                   </div>
 
-                  <button className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block border-0 mt-4 sendMsg_btn ms-2">
+                  <button className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block border-0 mt-4 sendMsg_btn ms-2 pink_btn transition_03">
                     Send Message
                   </button>
                 </form>
