@@ -48,7 +48,10 @@ const ViewAll = () => {
   ];
   return (
     <>
-      <div className="container custom_container pt-5 mt-md-4 mt-lg-5 overflow-x-hidden">
+      <div
+        className="container custom_container pt-5 mt-md-4 mt-lg-5 overflow-x-hidden"
+        id="article"
+      >
         <h2
           className="mt-xl-3 text-center text-black fw-normal font_2xl lh_56"
           data-aos="zoom-in"

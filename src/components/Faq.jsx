@@ -27,7 +27,10 @@ const Faq = () => {
   };
   return (
     <>
-      <div className="pb-5 pb-md-4 pb-lg-0 pb-xl-5 mb-lg-2 pt-lg-2 pt-xl-5">
+      <div
+        className="pb-5 pb-md-4 pb-lg-0 pb-xl-5 mb-lg-2 pt-lg-2 pt-xl-5"
+        id="events"
+      >
         <div className="container custom_container pb-md-5 pt-lg-4 pt-xl-5 mt-xl-4 mb-lg-5">
           <h2
             className="ff_outfit fw-semibold font_3xl text-black lh_110 text-center mt-lg-5 mb-lg-4 mt-xl-0 pt-lg-5"

@@ -4,7 +4,10 @@ import WelcomeImg from "../assets/images/webp/welcome-img.webp";
 const WelcomeSkill = () => {
   return (
     <>
-      <div className="container custom_container py-5  my-xl-2 overflow-x-hidden">
+      <div
+        className="container custom_container py-5  my-xl-2 overflow-x-hidden"
+        id="home"
+      >
         <div className="row align-items-center justify-content-center justify-content-lg-between py-md-4  py-lg-5 my-xl-4 position-lg-relative">
           <div className="col-12 col-lg-8 col-xl-7 position-relative">
             <div

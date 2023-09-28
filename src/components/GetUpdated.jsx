@@ -22,7 +22,7 @@ const GetUpdated = () => {
   return (
     <>
       <ToastContainer />
-      <div className="py-xl-5">
+      <div className="py-xl-5" id="about">
         <div className="container custom_container py-5 my-md-4 my-lg-5">
           <div className="row position-lg-relative justify-content-center justify-content-lg-between mt-xl-4 my-xl-5">
             <div className="col-12 col-lg-6">
