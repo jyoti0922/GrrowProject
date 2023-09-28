@@ -357,6 +357,7 @@ textarea::placeholder {
   font-family: "Outfit", sans-serif !important;
   font-weight: 400 !important;
   color: #0d0d0d;
+  opacity: 0.8;
   line-height: 150%;
 }
 /* footer-section-css */
