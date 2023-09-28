@@ -25,13 +25,13 @@ const Footer = () => {
             </a>
           </p>
           <div className="d-flex justify-content-center gap-4">
-            <button className="d-flex gap-2 align-items-center common_btn lh_21 fw_medium font_md text-black border-transparent border-1 pink_btn transition_03">
+            <button className="d-flex gap-2 align-items-center common_btn lh_21 fw_medium font_md text-black border-transparent border-1  transition_03">
               <span>
                 <img src={startWritingImg} alt="start-writing-icon-img" />
               </span>
               Start Writing
             </button>
-            <button className="common_btn lh_21 fw_medium font_md text-black border-transparent border-1 pink_btn transition_03">
+            <button className="common_btn lh_21 fw_medium font_md text-black border-transparent border-1  transition_03">
               Get the app
             </button>
           </div>

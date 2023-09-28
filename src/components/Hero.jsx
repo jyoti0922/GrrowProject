@@ -24,8 +24,8 @@ const Hero = () => {
                 norma.
               </p>
               <a
-                href="/"
-                className="common_btn fw_medium font_md text-white text-decoration-none border_white mt-lg-4 lh_21 transparent_btn transition_03"
+                href="#"
+                className="common_btn fw_medium font_md text-white text-decoration-none border_white mt-lg-4 lh_21 common_btn transition_03"
               >
                 Get Started
               </a>

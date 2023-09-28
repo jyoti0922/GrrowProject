@@ -17,7 +17,7 @@ function Loading() {
   return (
     <>
       <div>
-        <Container>
+        <div className="container custom_container">
           {" "}
           {loading ? (
             <div id="root">
@@ -28,8 +28,8 @@ function Loading() {
             </div>
           ) : (
             <></>
-          )}{" "}
-        </Container>
+          )}
+        </div>
       </div>
     </>
   );

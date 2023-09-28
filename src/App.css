@@ -15,12 +15,13 @@
   --font-md: 18px;
   --font-lg: 20px;
   --font-xl: 24px;
-  --font-2xl: 47px;
+  --font-2xl: 48px;
   --font-3xl: 52px;
   --font-4xl: 64px;
   /* =======================color======================= */
   --color-pink: #ff5cd7;
   --color-dark: #0d0d0d;
+  --color-offWhite: #ffeeee;
   /* ==================== background-color ================= */
   --bg-offWhite: #faf8f8;
 }
@@ -107,6 +108,9 @@
 .text_dark {
   color: var(--color-dark);
 }
+.text_offWhite {
+  color: var(--color-offWhite);
+}
 /* DEFINE BACKGROUND COLOR */
 .bg_pink {
   background-color: var(--color-pink);
@@ -143,7 +147,7 @@
 body,
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   font-family: "Roboto", sans-serif !important;
   background-color: #efefef !important;
 }
@@ -227,13 +231,13 @@ html {
 
 .common_btn {
   border-radius: 264px;
-  padding: 13px 30px;
+  padding: 15px 30px;
   border: 1px solid transparent;
 }
-.white_btn:hover {
-  background-color: #ff5cd7 !important;
-  color: white !important;
-  box-shadow: 0px 1px 3px 0px #ff5cd7;
+.common_btn:hover {
+  background-color: transparent !important;
+  color: #ff5cd7 !important;
+  border: 1px solid #ff5cd7 !important;
 }
 .transparent_btn:hover {
   background-color: white !important;
@@ -266,6 +270,9 @@ html {
 .welcome_img {
   max-width: 679px;
   max-height: 495px;
+}
+.welcomSkill_box {
+  width: 100% !important;
 }
 
 /* Join work section css */
@@ -379,7 +386,9 @@ textarea::placeholder {
   width: 365px;
   height: 226px;
 }
-
+.mw_565 {
+  max-width: 565px;
+}
 /* ------------------------backtotop------------------------ */
 .topscroll {
   position: fixed;
@@ -454,6 +463,9 @@ textarea::placeholder {
     margin: 0 auto;
     padding: 0 12px;
   }
+  .welcomSkill_box {
+    width: 557px !important;
+  }
 }
 @media (min-width: 1200px) {
   .min_vh_100 {
@@ -506,6 +518,9 @@ textarea::placeholder {
     width: 300px !important;
     height: 226px;
   }
+  .welcome_img {
+    max-width: 610px;
+  }
 }
 @media (max-width: 991.98px) {
   .navbar_bg {
@@ -519,7 +534,7 @@ textarea::placeholder {
     width: 66% !important;
   }
   .welcome_img {
-    width: 455px !important;
+    width: 516px !important;
     height: 250px !important;
   }
   .getupdated_planning_img {
@@ -543,6 +558,9 @@ textarea::placeholder {
   .planningSocial_bg {
     width: 83.33333333% !important;
   }
+  .welcome_img {
+    width: 500px !important;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -556,18 +574,28 @@ textarea::placeholder {
     width: 330px !important;
   }
   .welcome_img {
-    width: 330px !important;
+    width: 500px !important;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .viewall_img {
     width: 290px !important;
     height: 205px !important;
   }
   .welcome_img {
-    width: 290px !important;
+    width: 400px !important;
   }
   .getupdated_planning_img {
+    width: 290px !important;
+  }
+}
+@media (max-width: 400px) {
+  .welcome_img {
+    width: 350px !important;
+  }
+}
+@media (max-width: 374.98px) {
+  .welcome_img {
     width: 290px !important;
   }
 }

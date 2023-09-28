@@ -62,7 +62,7 @@ const Header = () => {
             </ul>
             <a
               href="#"
-              className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none d-none d-lg-flex white_btn transition_03"
+              className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none d-none lh_21 d-lg-flex common_btn transition_03"
             >
               + Subscribe
             </a>
@@ -112,7 +112,7 @@ const Header = () => {
                 </li>
                 <a
                   href="#"
-                  className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none white_btn transition_03"
+                  className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none common_btn transition_03"
                 >
                   + Subscribe
                 </a>

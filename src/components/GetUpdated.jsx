@@ -22,9 +22,9 @@ const GetUpdated = () => {
   return (
     <>
       <ToastContainer />
-      <div className="py-5">
+      <div className="py-xl-5">
         <div className="container custom_container py-md-5 my-lg-5">
-          <div className="row position-lg-relative justify-content-center justify-content-lg-between mt-lg-4 my-lg-5">
+          <div className="row position-lg-relative justify-content-center justify-content-lg-between mt-xl-4 my-xl-5">
             <div className="col-12 col-lg-6">
               <div className="position-relative">
                 <div
@@ -89,7 +89,7 @@ const GetUpdated = () => {
                   Semikoli.
                 </p>
                 <form
-                  className="row justify-content-between"
+                  className="row justify-content-between mt-2 mt-lg-4"
                   onSubmit={sendForm}
                 >
                   <div className="col-12 col-sm-6">
@@ -127,13 +127,13 @@ const GetUpdated = () => {
                         setdataValue({ ...dataValue, textarea: e.target.value })
                       }
                       value={dataValue.textarea}
-                      rows={6}
+                      rows={5}
                       className="mb-xl-2 fw-normal font_xsm text-black opacity_05 getupdated_input br_5 mt-3 w-100 p-2 p-md-3"
                       placeholder=" Message"
                     ></textarea>
                   </div>
 
-                  <button className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block border-0 mt-3 mt-xl-4 sendMsg_btn ms-2 pink_btn transition_03">
+                  <button className="common_btn bg_pink lh_21 text-decoration-none text_offWhite fw_medium font_md d-inline-block border-0 mt-3 mt-xl-4 sendMsg_btn ms-2 transition_03">
                     Send Message
                   </button>
                 </form>

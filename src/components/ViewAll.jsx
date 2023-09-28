@@ -48,9 +48,9 @@ const ViewAll = () => {
   ];
   return (
     <>
-      <div className="container custom_container pt-5 mt-md-5">
+      <div className="container custom_container pt-5 mt-md-4 mt-lg-5">
         <h2
-          className="mt-lg-3 text-center text-black fw-normal font_2xl lh_56"
+          className="mt-xl-3 text-center text-black fw-normal font_2xl lh_56"
           data-aos="zoom-in"
           data-aos-duration="1000"
         >
@@ -59,10 +59,10 @@ const ViewAll = () => {
         <div className="my-5 pt-lg-4 mb-lg-4 pb-lg-2">
           {ViewAllData.map((obj, i) => (
             <div
-              className="row justify-content-center justify-content-lg-between py-4 viewAll_border px-0"
+              className="row justify-content-center justify-content-lg-between py-4 viewAll_border "
               key={i}
             >
-              <div className="col-12 col-sm-5 col-lg-4 ps-md-0">
+              <div className="col-12 col-sm-5 col-lg-4 ps-xl-0">
                 <div
                   className="text-center"
                   data-aos="fade-right"
@@ -75,18 +75,22 @@ const ViewAll = () => {
                   />
                 </div>
               </div>
-              <div className=" col-10 col-sm-7 mt-4 mt-md-0 pe-md-0">
-                <div data-aos="fade-left" data-aos-duration="1000">
+              <div className=" col-10 col-sm-7 mt-4 mt-md-0 pe-xl-0">
+                <div
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  className="h-100 d-flex flex-column justify-content-between"
+                >
                   <p className="fw_medium font_md text_pink lh_21 mb-1 mb-lg-3">
                     {obj.viewallDate}
                   </p>
-                  <h2 className="fw_medium font_xl text-black lh_28 mb-1 mb-lg-3">
+                  <h2 className="fw_medium font_xl text-black lh_28 mb-1 mb-lg-3 mw_565">
                     {obj.viewallTitle}
                   </h2>
-                  <p className="fw-normal font_xsm text-black opacity_07 lh_150 mb-1 mb-lg-3">
+                  <p className="fw-normal font_xsm text-black opacity_07 lh_150 mb-1 mb-lg-3 mw_565">
                     {obj.viewallPara}
                   </p>
-                  <p className="fw-normal font_xsm text-black opacity_07 lh_150 mb-1 mb-lg-3">
+                  <p className="fw-normal font_sm text-black opacity_07 lh_150 mb-1 mb-lg-3">
                     {obj.viewallpara2}
                   </p>
                   <a
@@ -95,7 +99,7 @@ const ViewAll = () => {
                   >
                     {obj.viewallBtn}
                   </a>
-                  <div className="d-flex justify-content-between align-items-center mt-2 mt-lg-3">
+                  <div className="d-flex justify-content-between align-items-center mt-2 mt-lg-3 pt-xl-2">
                     <span className="d-flex align-items-start gap-1">
                       {obj.viewallHeartIcon}
                       <p className="mb-0 fw_medium font_lg text-black lh_23">
@@ -128,7 +132,7 @@ const ViewAll = () => {
         <div className="text-center">
           <a
             href="#"
-            className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block mt-lg-5 px-5 pink_btn transition_03"
+            className="common_btn bg_pink lh_21 text-decoration-none text_offWhite fw_medium font_md d-inline-block mt-xl-1 px-5 transition_03"
           >
             View All
           </a>
