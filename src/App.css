@@ -244,6 +244,7 @@ html {
   background-color: black !important;
   color: white !important;
   box-shadow: 0px 1px 3px 0px rgb(118, 115, 115);
+  border: 1px solid white;
 }
 /* HERO SECTION CSS  */
 .hero_bg {
@@ -275,13 +276,17 @@ html {
   background-position: center;
 }
 .planningSocial_bg {
-  max-width: 327px;
+  width: 327px;
   background: #fff8f8;
   box-shadow: 0px 1px 40px 0px rgba(0, 0, 0, 0.1);
 }
 .planningSocial_set {
   left: 0;
   top: 90%;
+}
+.getupdated_planning_img {
+  width: 558px !important;
+  height: 410px !important;
 }
 /* get-updated-section */
 input:focus-visible {
@@ -328,7 +333,8 @@ textarea::placeholder {
 }
 .faq_accordion .accordion-item {
   border-radius: 10px !important;
-  border: 1px solid / c5c5c5 !important;
+  border: 1px solid #c5c5c5 !important;
+  background-color: #efefef;
 }
 .faq_accordion .accordion-button:not(.collapsed) {
   box-shadow: none !important;
@@ -366,6 +372,13 @@ textarea::placeholder {
   border-top: 1px solid #0000001a;
   border-bottom: 1px solid #0000001a;
 }
+.read_more:hover {
+  color: #ff5cd7 !important;
+}
+.viewall_img {
+  width: 365px;
+  height: 226px;
+}
 
 /* ------------------------backtotop------------------------ */
 .topscroll {
@@ -378,6 +391,7 @@ textarea::placeholder {
   z-index: 100;
   border-radius: 50%;
   cursor: pointer;
+  border: 1px solid white;
   box-shadow: 4px 9px 50px 2px gray;
   transition: all 0.3s linear;
   -webkit-animation: move 2s ease-in-out infinite;
@@ -488,6 +502,10 @@ textarea::placeholder {
   .get_updated_sendBox {
     padding: 28px;
   }
+  .viewall_img {
+    width: 300px !important;
+    height: 226px;
+  }
 }
 @media (max-width: 991.98px) {
   .navbar_bg {
@@ -498,21 +516,58 @@ textarea::placeholder {
     height: 35px !important;
   }
   .planningSocial_bg {
-    max-width: 100%;
+    width: 66% !important;
   }
   .welcome_img {
-    max-width: 450px;
-    max-height: 250px !important;
+    width: 455px !important;
+    height: 250px !important;
+  }
+  .getupdated_planning_img {
+    width: 455px !important;
+    height: 250px !important;
+  }
+  .viewall_img {
+    width: 280px !important;
+    height: 205px !important;
   }
 }
 @media (max-width: 767.98px) {
   .welcome_img {
-    max-width: 290px;
-    max-height: 200px !important;
+    width: 290px !important;
+    height: 200px !important;
+  }
+  .getupdated_planning_img {
+    width: 290px !important;
+    height: 200px !important;
+  }
+  .planningSocial_bg {
+    width: 83.33333333% !important;
   }
 }
+
 @media (max-width: 575.98px) {
   .common_btn {
     padding: 10px 25px;
+  }
+  .viewall_img {
+    width: 330px !important;
+  }
+  .getupdated_planning_img {
+    width: 330px !important;
+  }
+  .welcome_img {
+    width: 330px !important;
+  }
+}
+@media (max-width: 400px) {
+  .viewall_img {
+    width: 290px !important;
+    height: 205px !important;
+  }
+  .welcome_img {
+    width: 290px !important;
+  }
+  .getupdated_planning_img {
+    width: 290px !important;
   }
 }

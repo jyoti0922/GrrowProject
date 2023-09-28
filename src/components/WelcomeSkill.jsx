@@ -7,16 +7,24 @@ const WelcomeSkill = () => {
       <div className="container custom_container py-5 mt-lg-3 mb-lg-2">
         <div className="row align-items-center justify-content-center justify-content-lg-between  py-md-5 my-lg-4 position-lg-relative">
           <div className="col-12 col-lg-8 col-xl-7 position-relative">
-            <div className="text-center">
+            <div
+              className="text-center"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <img
-                className="w-100 welcome_img"
+                className="welcome_img"
                 src={WelcomeImg}
                 alt="welcome image"
               />
             </div>
           </div>
           <div className="col-10 col-md-8 col-lg-6 mt-3 mt-lg-0 position-lg-absolute right_0">
-            <div className="p-3 p-md-4 bg_offWhite br_5">
+            <div
+              className="p-3 p-md-4 bg_offWhite br_5"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <h2 className="fw-normal font_2xl text-black lh_56 mb-3">
                 <span className="fw-semibold">Welcome</span> to Work Skills
               </h2>

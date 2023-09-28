@@ -24,30 +24,62 @@ const GetUpdated = () => {
       <ToastContainer />
       <div className="py-5">
         <div className="container custom_container py-md-5 my-lg-5">
-          <div className="row position-lg-relative mt-lg-4 my-lg-5">
+          <div className="row position-lg-relative justify-content-center justify-content-lg-between mt-lg-4 my-lg-5">
             <div className="col-12 col-lg-6">
               <div className="position-relative">
-                <img
-                  className="w-100 h-100"
-                  src={planningImg}
-                  alt="team planing img"
-                />
-                <div className="p-3 planningSocial_bg planningSocial_set br_5 position-lg-absolute mt-4 mt-lg-0">
-                  <div className="d-flex align-items-center gap-3 pt-lg-1 px-lg-2">
-                    <MsgIcons />
-                    <p className="fw-normal font_lg text-black mb-0">
-                      Stepenjohns@gmail.com
-                    </p>
-                  </div>
-                  <div className="d-flex gap-2 mt-2 pb-lg-1 px-lg-2">
-                    <InstaIcons />
-                    <LinkdinIcons />
+                <div
+                  className="text-center"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    className="getupdated_planning_img"
+                    src={planningImg}
+                    alt="team planing img"
+                  />
+                </div>
+                <div
+                  className="d-flex justify-content-center"
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                >
+                  <div className="p-3 planningSocial_bg planningSocial_set  br_5 position-lg-absolute mt-3 mt-lg-0">
+                    <div className="d-flex align-items-center gap-3 pt-lg-1 px-lg-2">
+                      <a href="#">
+                        <MsgIcons />
+                      </a>
+
+                      <a
+                        href="mailto:Stepenjohns@gmail.com"
+                        className="fw-normal font_lg text-black mb-0 text-decoration-none"
+                      >
+                        Stepenjohns@gmail.com
+                      </a>
+                    </div>
+                    <div className="d-flex gap-2 mt-2 pb-lg-1 px-lg-2">
+                      <a
+                        href="https://www.instagram.com/"
+                        className="text-decoration-none"
+                      >
+                        <InstaIcons />
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/"
+                        className="text-decoration-none"
+                      >
+                        <LinkdinIcons />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-7 mt-4 mt-lg-0 position-lg-absolute snedBox_position">
-              <div className="get_updated_sendBox br_5">
+            <div className="col-10 col-md-8 col-lg-7 mt-3 mt-lg-0 position-lg-absolute snedBox_position">
+              <div
+                className="get_updated_sendBox br_5 "
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <h2 className="fw-normal font_2xl text-black lh_56 mb-3">
                   Get <span className="fw-semibold">Updated</span> With Us
                 </h2>
@@ -96,12 +128,12 @@ const GetUpdated = () => {
                       }
                       value={dataValue.textarea}
                       rows={6}
-                      className="mb-2 fw-normal font_xsm text-black opacity_05 getupdated_input br_5 mt-3 w-100 p-2 p-md-3"
+                      className="mb-xl-2 fw-normal font_xsm text-black opacity_05 getupdated_input br_5 mt-3 w-100 p-2 p-md-3"
                       placeholder=" Message"
                     ></textarea>
                   </div>
 
-                  <button className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block border-0 mt-4 sendMsg_btn ms-2 pink_btn transition_03">
+                  <button className="common_btn bg_pink lh_21 text-decoration-none text-white fw_medium font_md d-inline-block border-0 mt-3 mt-xl-4 sendMsg_btn ms-2 pink_btn transition_03">
                     Send Message
                   </button>
                 </form>
