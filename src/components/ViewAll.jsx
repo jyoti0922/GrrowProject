@@ -48,7 +48,7 @@ const ViewAll = () => {
   ];
   return (
     <>
-      <div className="container custom_container pt-5 mt-md-4 mt-lg-5">
+      <div className="container custom_container pt-5 mt-md-4 mt-lg-5 overflow-x-hidden">
         <h2
           className="mt-xl-3 text-center text-black fw-normal font_2xl lh_56"
           data-aos="zoom-in"
@@ -56,7 +56,7 @@ const ViewAll = () => {
         >
           Let’s Take a <span className="fw_medium">View</span>
         </h2>
-        <div className="my-4 my-lg-5 pt-lg-4 mb-lg-4 pb-lg-2">
+        <div className="my-4 my-xl-5 mt-lg-4 mb-lg-5 pt-lg-4 mb-lg-4 pb-lg-2">
           {ViewAllData.map((obj, i) => (
             <div
               className="row justify-content-center justify-content-lg-between py-4 viewAll_border "

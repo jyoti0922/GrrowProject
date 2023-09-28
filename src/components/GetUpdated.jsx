@@ -29,7 +29,7 @@ const GetUpdated = () => {
               <div className="position-relative">
                 <div
                   className="text-center"
-                  data-aos="fade-right"
+                  data-aos="fade-down"
                   data-aos-duration="1000"
                 >
                   <img
@@ -40,8 +40,8 @@ const GetUpdated = () => {
                 </div>
                 <div
                   className="d-flex justify-content-center"
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
                 >
                   <div className="p-3 planningSocial_bg planningSocial_set  br_5 position-lg-absolute mt-3 mt-lg-0">
                     <div className="d-flex align-items-center gap-3 pt-lg-1 px-lg-2">
@@ -79,7 +79,7 @@ const GetUpdated = () => {
             <div className="col-12 col-md-9 col-lg-7 mt-3 mt-lg-0 position-lg-absolute snedBox_position">
               <div
                 className="get_updated_sendBox br_5 "
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1000"
               >
                 <h2 className="fw-normal font_2xl text-black lh_56 mb-3">

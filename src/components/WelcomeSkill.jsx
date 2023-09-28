@@ -4,13 +4,14 @@ import WelcomeImg from "../assets/images/webp/welcome-img.webp";
 const WelcomeSkill = () => {
   return (
     <>
-      <div className="container custom_container py-5  my-xl-2">
+      <div className="container custom_container py-5  my-xl-2 overflow-x-hidden">
         <div className="row align-items-center justify-content-center justify-content-lg-between py-md-4  py-lg-5 my-xl-4 position-lg-relative">
           <div className="col-12 col-lg-8 col-xl-7 position-relative">
             <div
               className="text-center"
               data-aos="fade-right"
               data-aos-duration="1000"
+              data-aos-delay="500"
             >
               <img
                 className="welcome_img br_5 object-fit-cover"
@@ -24,6 +25,7 @@ const WelcomeSkill = () => {
               className="p-3 p-md-4 bg_offWhite br_5 welcomSkill_box"
               data-aos="fade-left"
               data-aos-duration="1000"
+              data-aos-delay="500"
             >
               <h2 className="fw-normal font_2xl text-black lh_56 mb-3">
                 <span className="fw-semibold">Welcome</span> to Work Skills

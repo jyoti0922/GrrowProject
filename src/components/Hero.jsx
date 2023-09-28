@@ -4,13 +4,14 @@ import Header from "./Header";
 const Hero = () => {
   return (
     <>
-      <div className="hero_bg min_vh_100 d-flex flex-column">
+      <div className="hero_bg min_vh_100 d-flex flex-column overflow-x-hidden">
         <Header />
         <div className="d-flex flex-grow-1 align-items-center justify-content-center py-5">
           <div className="container custom_container py-md-4 py-lg-5 py-xl-0">
             <div
               data-aos="zoom-in"
               data-aos-duration="3000"
+              data-aos-delay="3000"
               className="d-flex flex-column align-items-center justify-content-center"
             >
               <h1 className="text-white fw-normal font_4xl text-center mw_709 lh_75">

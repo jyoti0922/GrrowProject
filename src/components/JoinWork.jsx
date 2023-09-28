@@ -4,12 +4,13 @@ import logoimg from "../assets/images/svg/logo.svg";
 const JoinWork = () => {
   return (
     <>
-      <div className="joinWork_bg py-5 ">
+      <div className="joinWork_bg py-5 overflow-x-hiden">
         <div className="container custom_container py-md-4 py-lg-5 py-xl-0">
           <div
             className="d-flex flex-column align-items-center justify-content-center"
             data-aos="zoom-in"
             data-aos-duration="1000"
+            data-aos-delay="500"
           >
             <img className="joinsection_logo" src={logoimg} alt="logoimg" />
             <h1 className="text-white fw-normal font_2xl text-center lh_120 my-3 py-lg-1">
