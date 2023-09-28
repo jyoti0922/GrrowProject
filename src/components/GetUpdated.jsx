@@ -23,7 +23,7 @@ const GetUpdated = () => {
     <>
       <ToastContainer />
       <div className="py-xl-5">
-        <div className="container custom_container py-md-5 my-lg-5">
+        <div className="container custom_container py-5 my-md-4 my-lg-5">
           <div className="row position-lg-relative justify-content-center justify-content-lg-between mt-xl-4 my-xl-5">
             <div className="col-12 col-lg-6">
               <div className="position-relative">
@@ -33,7 +33,7 @@ const GetUpdated = () => {
                   data-aos-duration="1000"
                 >
                   <img
-                    className="getupdated_planning_img"
+                    className="getupdated_planning_img object-fit-cover br_5"
                     src={planningImg}
                     alt="team planing img"
                   />
@@ -45,7 +45,7 @@ const GetUpdated = () => {
                 >
                   <div className="p-3 planningSocial_bg planningSocial_set  br_5 position-lg-absolute mt-3 mt-lg-0">
                     <div className="d-flex align-items-center gap-3 pt-lg-1 px-lg-2">
-                      <a href="#">
+                      <a href="#" className="icon_hover transition_03">
                         <MsgIcons />
                       </a>
 
@@ -59,13 +59,15 @@ const GetUpdated = () => {
                     <div className="d-flex gap-2 mt-2 pb-lg-1 px-lg-2">
                       <a
                         href="https://www.instagram.com/"
-                        className="text-decoration-none"
+                        target="_blank"
+                        className="text-decoration-none icon_hover transition_03"
                       >
                         <InstaIcons />
                       </a>
                       <a
                         href="https://www.linkedin.com/"
-                        className="text-decoration-none"
+                        target="_blank"
+                        className="text-decoration-none icon_hover transition_03"
                       >
                         <LinkdinIcons />
                       </a>
@@ -74,7 +76,7 @@ const GetUpdated = () => {
                 </div>
               </div>
             </div>
-            <div className="col-10 col-md-8 col-lg-7 mt-3 mt-lg-0 position-lg-absolute snedBox_position">
+            <div className="col-12 col-md-9 col-lg-7 mt-3 mt-lg-0 position-lg-absolute snedBox_position">
               <div
                 className="get_updated_sendBox br_5 "
                 data-aos="fade-left"
@@ -83,7 +85,7 @@ const GetUpdated = () => {
                 <h2 className="fw-normal font_2xl text-black lh_56 mb-3">
                   Get <span className="fw-semibold">Updated</span> With Us
                 </h2>
-                <p className="fw_medium font_xsm text-black opacity_06 lh_150">
+                <p className="fw_medium font_xsm text-black opacity_06 lh_150 mb-xl-4 pb-3">
                   The Big Oxmox advised her not to do so, because there were
                   thousands of bad Commas, wild Question Marks and devious
                   Semikoli.

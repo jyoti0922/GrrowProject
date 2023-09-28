@@ -27,10 +27,10 @@ const Faq = () => {
   };
   return (
     <>
-      <div className="pb-5 mb-lg-2 pt-lg-2 pt-xl-5">
+      <div className="pb-5 pb-md-4 pb-lg-0 pb-xl-5 mb-lg-2 pt-lg-2 pt-xl-5">
         <div className="container custom_container pb-md-5 pt-lg-4 pt-xl-5 mt-xl-4 mb-lg-5">
           <h2
-            className="ff_outfit fw-semibold font_3xl text-black lh_110 text-center mt-lg-5 mt-xl-0 pt-lg-5"
+            className="ff_outfit fw-semibold font_3xl text-black lh_110 text-center mt-lg-5 mb-lg-4 mt-xl-0 pt-lg-5"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -38,7 +38,7 @@ const Faq = () => {
           </h2>
 
           <div className="row justify-content-center">
-            <div className="col-10 col-md-8 col-lg-10">
+            <div className="col-12  col-md-10 col-lg-10">
               {AccordionData.map((obj, i) => (
                 <div
                   key={i}

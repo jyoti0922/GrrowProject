@@ -4,8 +4,8 @@ import startWritingImg from "../assets/images/png/startWriting-Img.png";
 const Footer = () => {
   return (
     <>
-      <div className="footer_bg">
-        <div className="container custom_container py-4">
+      <div className="footer_bg py-md-4 py-lg-5 py-xl-0">
+        <div className="container custom_container py-xl-4 py-5 ">
           <div className="text-center">
             <img className="footersection_logo" src={logoimg} alt="logoimg" />
           </div>

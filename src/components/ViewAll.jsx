@@ -56,26 +56,26 @@ const ViewAll = () => {
         >
           Let’s Take a <span className="fw_medium">View</span>
         </h2>
-        <div className="my-5 pt-lg-4 mb-lg-4 pb-lg-2">
+        <div className="my-4 my-lg-5 pt-lg-4 mb-lg-4 pb-lg-2">
           {ViewAllData.map((obj, i) => (
             <div
               className="row justify-content-center justify-content-lg-between py-4 viewAll_border "
               key={i}
             >
-              <div className="col-12 col-sm-5 col-lg-4 ps-xl-0">
+              <div className="col-12 col-md-5 col-lg-4 ps-xl-0">
                 <div
                   className="text-center"
                   data-aos="fade-right"
                   data-aos-duration="1000"
                 >
                   <img
-                    className="viewall_img"
+                    className="viewall_img object-fit-cover br_5"
                     src={obj.viewallImg}
                     alt="view section 1 img"
                   />
                 </div>
               </div>
-              <div className=" col-10 col-sm-7 mt-4 mt-md-0 pe-xl-0">
+              <div className=" col-12 col-md-7 mt-4 mt-md-0 pe-xl-0">
                 <div
                   data-aos="fade-left"
                   data-aos-duration="1000"
