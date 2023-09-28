@@ -1,8 +1,11 @@
 import React from "react";
-import view1Img from "../assets/images/png/View1-img.png";
-import view2Img from "../assets/images/png/view2-img.png";
-import view3Img from "../assets/images/png/view3-img.png";
-import view4Img from "../assets/images/png/view4-img.png";
+import view1Img from "../assets/images/webp/View1-img.webp";
+import view2Img from "../assets/images/webp/view2-img.webp";
+import view3Img from "../assets/images/webp/view3-img.webp";
+import view4Img from "../assets/images/webp/view4-img.webp";
+import commentImg from "../assets/images/png/comment-icon.png";
+import sendImg from "../assets/images/png/send-icon.png";
+import { HeartIcons } from "./common/Icon";
 
 const ViewAll = () => {
   const ViewAllData = [
@@ -13,6 +16,10 @@ const ViewAll = () => {
       viewallPara: "Working with feedback",
       viewallpara2: "April 9 - LIOR KRENGEL",
       viewallBtn: " Read more",
+      viewallHeartIcon: <HeartIcons />,
+      viewallCommentIcon: commentImg,
+      viewallSendIcon: sendImg,
+      viewallcount: "2",
     },
     {
       viewallImg: view2Img,
@@ -72,9 +79,33 @@ const ViewAll = () => {
                   <p className="fw-normal font_xsm text-black opacity_07 lh_150 mb-1 mb-lg-3">
                     {obj.viewallpara2}
                   </p>
-                  <a href="/" className="fw_medium font_md text-black lh_21">
+                  <a href="/" className="fw_medium font_md text-black lh_21 ">
                     {obj.viewallBtn}
                   </a>
+                  <div className="d-flex justify-content-between align-items-center mt-2 mt-lg-3">
+                    <span className="d-flex align-items-start gap-1">
+                      {obj.viewallHeartIcon}
+                      <p className="mb-0 fw_medium font_lg text-black lh_23">
+                        {obj.viewallcount}
+                      </p>
+                    </span>
+                    {i === 0 && (
+                      <>
+                        <span>
+                          <img
+                            src={obj.viewallCommentIcon}
+                            alt="viewAll-comment-icon"
+                          />
+                        </span>
+                        <span>
+                          <img
+                            src={obj.viewallSendIcon}
+                            alt="viewAll-send-icon"
+                          />
+                        </span>
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>

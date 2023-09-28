@@ -20,7 +20,7 @@ const Hero = () => {
                 norma.
               </p>
               <a
-                href="/"
+                href="#"
                 className="common_btn fw_medium font_md text-white text-decoration-none border_white mt-lg-4 lh_21"
               >
                 Get Started

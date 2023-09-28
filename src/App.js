@@ -7,10 +7,14 @@ import GetUpdated from "./components/GetUpdated";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import ViewAll from "./components/ViewAll";
+import Backtotop from "./components/common/Backtotop";
+import Loading from "./components/common/Loading";
 
 function App() {
   return (
     <>
+      <Loading />
+      <Backtotop />
       <Hero />
       <WelcomeSkill />
       <JoinWork />

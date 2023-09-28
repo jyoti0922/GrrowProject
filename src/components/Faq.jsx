@@ -32,7 +32,7 @@ const Faq = () => {
           <h2 className="ff_outfit fw-semibold font_3xl text-black lh_110 text-center mt-lg-5 mt-xl-0 pt-lg-5">
             Frequently Asked Questions
           </h2>
-         
+
           <div className="row justify-content-center">
             <div className="col-12 col-lg-10">
               {AccordionData.map((obj, i) => (
