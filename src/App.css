@@ -404,6 +404,7 @@ textarea::placeholder {
 }
 .substack_hover:hover {
   color: #ff5cd7 !important;
+  opacity: 1 !important;
 }
 .icon_hover:hover {
   scale: 1.1;

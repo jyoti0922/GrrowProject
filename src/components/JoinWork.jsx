@@ -12,7 +12,10 @@ const JoinWork = () => {
             data-aos-duration="1000"
             data-aos-delay="500"
           >
-            <img className="joinsection_logo" src={logoimg} alt="logoimg" />
+            <a href="#">
+              <img className="joinsection_logo" src={logoimg} alt="logoimg" />
+            </a>
+
             <h1 className="text-white fw-normal font_2xl text-center lh_120 my-3 py-lg-1">
               Join work skill and start
               <span className="fw-semibold px-2">
