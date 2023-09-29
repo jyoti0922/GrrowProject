@@ -22,7 +22,7 @@ const JoinWork = () => {
                 work on your <br className="d-none d-lg-block" /> soft skills
                 now
               </span>
-              and change yourself Meet
+              and change yourself
             </h1>
             <p className="fw-normal font_xsm opacity_07 text-white text-center lh_150 mb-0">
               Lpsum diam curabitur tincidunt sed vitae nulla a porttitor sed.

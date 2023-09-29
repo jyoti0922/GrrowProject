@@ -62,7 +62,7 @@ const Header = () => {
             </ul>
             <a
               href="#"
-              className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none d-none lh_21 d-lg-flex common_btn transition_03"
+              className="common_btn  fw_medium font_md text-black bg-white text-decoration-none d-none lh_21 d-lg-flex transition_03"
             >
               + Subscribe
             </a>
@@ -117,7 +117,7 @@ const Header = () => {
                 <a
                   href="#"
                   onClick={() => setNavShow(false)}
-                  className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none common_btn transition_03"
+                  className="common_btn  fw_medium font_md text-black bg-white text-decoration-none transition_03"
                 >
                   + Subscribe
                 </a>

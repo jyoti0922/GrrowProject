@@ -6,9 +6,11 @@ const Footer = () => {
     <>
       <div className="footer_bg py-4">
         <div className="container custom_container">
-          <a href="#" className="d-flex justify-content-center">
-            <img className="footersection_logo" src={logoimg} alt="logoimg" />
-          </a>
+          <div className="d-flex justify-content-center">
+            <a href="#">
+              <img className="footersection_logo" src={logoimg} alt="logoimg" />
+            </a>
+          </div>
           <p className="mb-0 fw-normal font_sm text-white lh_16 py-4 my-lg-2 text-center">
             <span className="opacity_05 me-1">©</span>
             2023 Lior krengle .

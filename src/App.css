@@ -244,17 +244,6 @@ html {
   color: #ff5cd7 !important;
   border: 1px solid #ff5cd7 !important;
 }
-.transparent_btn:hover {
-  background-color: white !important;
-  color: black !important;
-  box-shadow: 0px 1px 3px 0px white;
-}
-.pink_btn:hover {
-  background-color: black !important;
-  color: white !important;
-  box-shadow: 0px 1px 3px 0px rgb(118, 115, 115);
-  border: 1px solid white;
-}
 /* HERO SECTION CSS  */
 .hero_bg {
   background-image: url(../src/assets/images/webp/hero-bg-img.webp);
