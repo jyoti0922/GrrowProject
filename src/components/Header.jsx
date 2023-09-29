@@ -80,7 +80,7 @@ const Header = () => {
                 </button>
                 <li className=" list-unstyled">
                   <a
-                    href="#"
+                    href="#hero"
                     onClick={() => setNavShow(false)}
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
@@ -89,8 +89,8 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    href="#"
                     onClick={() => setNavShow(false)}
+                    href="#about"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     About
@@ -98,7 +98,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    href="#"
+                    href="#article"
                     onClick={() => setNavShow(false)}
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
@@ -107,7 +107,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    href="#"
+                    href="#events"
                     onClick={() => setNavShow(false)}
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >

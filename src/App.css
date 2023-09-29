@@ -380,6 +380,10 @@ textarea::placeholder {
   background: rgba(255, 255, 255, 0.1);
   height: 1px;
 }
+.startWriting_img {
+  max-width: 18px;
+  height: 22px;
+}
 /* view all section css */
 .viewAll_border {
   border-top: 1px solid #0000001a;
@@ -395,14 +399,27 @@ textarea::placeholder {
 .mw_565 {
   max-width: 565px;
 }
+.footerLink_hover:hover {
+  opacity: 0.7;
+}
+.substack_hover:hover {
+  color: #ff5cd7 !important;
+}
+.icon_hover:hover {
+  scale: 1.1;
+}
+.viewAll_icon {
+  max-width: 24px;
+  height: 24px;
+}
 /* ------------------------backtotop------------------------ */
 .topscroll {
   position: fixed;
   right: 15px;
   bottom: 25px;
   background: #000000;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   z-index: 100;
   border-radius: 50%;
   cursor: pointer;
@@ -459,10 +476,7 @@ textarea::placeholder {
   right: 10px;
 }
 .z-10 {
-  z-index: 10 !important;
-}
-.icon_hover:hover {
-  scale: 1.1;
+  z-index: 1000 !important;
 }
 
 /* ONLY MEDIA QUERY */

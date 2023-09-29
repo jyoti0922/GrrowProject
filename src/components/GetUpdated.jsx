@@ -51,7 +51,7 @@ const GetUpdated = () => {
 
                       <a
                         href="mailto:Stepenjohns@gmail.com"
-                        className="fw-normal font_lg text-black mb-0 text-decoration-none"
+                        className="fw-normal font_lg text-black mb-0 text-decoration-none read_more transition_03"
                       >
                         Stepenjohns@gmail.com
                       </a>

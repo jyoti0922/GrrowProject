@@ -4,7 +4,10 @@ import Header from "./Header";
 const Hero = () => {
   return (
     <>
-      <div className="hero_bg min_vh_100 d-flex flex-column overflow-x-hidden">
+      <div
+        className="hero_bg min_vh_100 d-flex flex-column overflow-x-hidden"
+        id="hero"
+      >
         <Header />
         <div className="d-flex flex-grow-1 align-items-center justify-content-center py-5">
           <div className="container custom_container py-md-4 py-lg-5 py-xl-0">

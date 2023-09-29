@@ -3,8 +3,8 @@ import view1Img from "../assets/images/webp/View1-img.webp";
 import view2Img from "../assets/images/webp/view2-img.webp";
 import view3Img from "../assets/images/webp/view3-img.webp";
 import view4Img from "../assets/images/webp/view4-img.webp";
-import commentImg from "../assets/images/png/comment-icon.png";
-import sendImg from "../assets/images/png/send-icon.png";
+import commentImg from "../assets/images/webp/comment-icon.webp";
+import sendImg from "../assets/images/webp/send-icon.webp";
 import { HeartIcons } from "./common/Icon";
 
 const ViewAll = () => {
@@ -103,26 +103,31 @@ const ViewAll = () => {
                     {obj.viewallBtn}
                   </a>
                   <div className="d-flex justify-content-between align-items-center mt-2 mt-lg-3 pt-xl-2">
-                    <span className="d-flex align-items-start gap-1">
-                      {obj.viewallHeartIcon}
-                      <p className="mb-0 fw_medium font_lg text-black lh_23">
+                    <span className="d-flex align-items-end gap-1">
+                      <a href="#" className="icon_hover transition_03">
+                        {obj.viewallHeartIcon}
+                      </a>
+
+                      <p className="mb-0 fw_medium font_lg text-black lh_23 ">
                         {obj.viewallcount}
                       </p>
                     </span>
                     {i === 0 && (
                       <>
-                        <span>
+                        <a href="#" className="icon_hover transition_03">
                           <img
+                            className="viewAll_icon "
                             src={obj.viewallCommentIcon}
                             alt="viewAll-comment-icon"
                           />
-                        </span>
-                        <span>
+                        </a>
+                        <a href="#" className="icon_hover transition_03">
                           <img
+                            className="viewAll_icon"
                             src={obj.viewallSendIcon}
                             alt="viewAll-send-icon"
                           />
-                        </span>
+                        </a>
                       </>
                     )}
                   </div>
