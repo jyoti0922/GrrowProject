@@ -81,6 +81,7 @@ const Header = () => {
                 <li className=" list-unstyled">
                   <a
                     href="#"
+                    onClick={() => setNavShow(false)}
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Home
@@ -89,6 +90,7 @@ const Header = () => {
                 <li className=" list-unstyled">
                   <a
                     href="#"
+                    onClick={() => setNavShow(false)}
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     About
@@ -97,6 +99,7 @@ const Header = () => {
                 <li className=" list-unstyled">
                   <a
                     href="#"
+                    onClick={() => setNavShow(false)}
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Article
@@ -105,6 +108,7 @@ const Header = () => {
                 <li className=" list-unstyled">
                   <a
                     href="#"
+                    onClick={() => setNavShow(false)}
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Events
@@ -112,6 +116,7 @@ const Header = () => {
                 </li>
                 <a
                   href="#"
+                  onClick={() => setNavShow(false)}
                   className="common_btn  fw_medium font_md text-black border-0 bg-white text-decoration-none common_btn transition_03"
                 >
                   + Subscribe

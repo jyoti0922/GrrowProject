@@ -4,8 +4,8 @@ import startWritingImg from "../assets/images/webp/startWriting-Img.webp";
 const Footer = () => {
   return (
     <>
-      <div className="footer_bg py-md-4 py-lg-5 py-xl-0">
-        <div className="container custom_container py-xl-4 py-5 ">
+      <div className="footer_bg py-4">
+        <div className="container custom_container">
           <div className="text-center">
             <img className="footersection_logo" src={logoimg} alt="logoimg" />
           </div>
