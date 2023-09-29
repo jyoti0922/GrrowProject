@@ -88,7 +88,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    href="#about"
+                    href="#"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     About
@@ -96,7 +96,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    href="#article"
+                    href="#"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Article
@@ -104,7 +104,7 @@ const Header = () => {
                 </li>
                 <li className=" list-unstyled">
                   <a
-                    href="#events"
+                    href="#"
                     className=" fw-normal font_xsm text-white text-decoration-none nav_hover transition_03 position-relative"
                   >
                     Events
