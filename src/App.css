@@ -392,8 +392,7 @@ textarea::placeholder {
   opacity: 0.7;
 }
 .substack_hover:hover {
-  color: #ff5cd7 !important;
-  opacity: 1 !important;
+  text-decoration: none;
 }
 .icon_hover:hover {
   scale: 1.1;
